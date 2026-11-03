@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search | Sift Sweets</title>
+<meta name="description" content="Search Sift Sweets recipes by name or ingredient.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Lora:ital@0;1&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="search">
+<header id="site-header"></header>
+<main class="wrap page-body">
+  <div class="page-head">
+    <span class="eyebrow">Looking for something?</span>
+    <h1>Search</h1>
+    <p>Search by recipe name, category or an ingredient you have on hand.</p>
+  </div>
+  <form class="search-form" role="search">
+    <label class="sr-only" for="q">Search recipes</label>
+    <input id="q" type="search" placeholder="chocolate, pumpkin, walnuts..." autocomplete="off">
+    <button class="btn btn--gold" type="submit">Search</button>
+  </form>
+  <div id="results"></div>
+</main>
+<footer id="site-footer"></footer>
+<script src="js/recipes.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
